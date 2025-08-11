@@ -1,0 +1,64 @@
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-07 17:15:46 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-07 17:43:38 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-08 01:13:57 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-10 19:51:27 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 17:19:04 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 17:28:34 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 17:46:36 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 17:51:06 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
