@@ -1,56 +1,117 @@
-import delivery.strategy.CourierDelivery;
-import delivery.strategy.EmailDelivery;
-import delivery.strategy.Order;
-import delivery.strategy.PickUpDelivery;
+import ListOfProducts.Products;
+import Order.Order;
+import delivery.DeliveryParameters;
+import delivery.DeliveryPrice;
+import delivery.factory.DeliveryFactory;
+import delivery.factory.DeliveryFactoryProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static features.CalculateDistanceWeight.calculateDeliveryCost;
+import java.util.List;
 
 public class CalculatorSystem {
     private static final Logger logger = LoggerFactory.getLogger(CalculatorSystem.class);
 
-
     public static void main(String[] args) {
-
         logger.info("Starting Delivery Calculator System");
 
-        try{
+        try {
+            Products laptop = new Products("P1", "Laptop", 2.5, 1200.0);
+            Products mouse = new Products("P2", "Wireless Mouse", 0.2, 25.99);
+            Products keyboard = new Products("P3", "Mechanical Keyboard", 1.1, 89.99);
+            Products monitor = new Products("P4", " Monitor", 5.0, 249.99);
+            Products headphones = new Products("P5", "Bluetooth Headphones", 0.3, 79.99);
 
-            Order courierOrder = new Order(new CourierDelivery(50, 5));
-            logOrderDetails("Standard courier delivery (50km, 5kg)", courierOrder, 1000);
+            createAndProcessOrder("ORD-001",
+                    List.of(laptop, mouse),
+                    50.0,
+                    "Email"
+            );
 
+            createAndProcessOrder("ORD-002",
+                    List.of(keyboard, mouse, headphones),
+                    150.0,
+                    "Courier"
+            );
 
-            Order courierOrder1 = new Order(new CourierDelivery(150, 5));
-            logOrderDetails("Long distance courier delivery (150km, 5kg)", courierOrder1, 1000);
+            createAndProcessOrder("ORD-003",
+                    List.of(monitor, laptop, keyboard),
+                    10.0,
+                    "Pickup"
+            );
 
+            logger.info("All orders processed successfully");
 
-            Order courierOrder2 = new Order(new CourierDelivery(50, 50));
-            logOrderDetails("Heavy weight courier delivery (50km, 50kg)", courierOrder2, 1000);
-
-            Order courierOrder3 = new Order(new CourierDelivery(150, 50));
-            logOrderDetails("Long distance and heavy weight courier delivery (150km, 50kg)", courierOrder3, 1000);
-
-            Order pickUp = new Order(new PickUpDelivery());
-            logOrderDetails("Pickup delivery", pickUp, 1000);
-
-
-            Order email = new Order(new EmailDelivery());
-            logOrderDetails("Email delivery", email, 1000);
-
-            logger.info("All delivery calculations completed successfully");
         } catch (Exception e) {
             logger.error("An error occurred in the delivery calculator system", e);
         }
+    }
 
+    private static void createAndProcessOrder(String orderId, List<Products> products, double distance, String deliveryType) {
+        try {
+            double totalWeight = products.stream()
+                    .mapToDouble(Products::getWeight)
+                    .sum();
+
+
+            DeliveryPrice deliveryStrategy = createDeliveryStrategy(deliveryType, distance, totalWeight);
+
+
+            Order order = new Order(deliveryStrategy, orderId, products, distance);
+
+
+            logOrderDetails(order);
+
+        } catch (IllegalArgumentException e) {
+            logger.error("Error processing order {}: {}", orderId, e.getMessage());
+            throw e;
         }
+    }
 
-    private static void logOrderDetails(String description, Order order, int productPrice) {
-        CalculatorSystem.logger.debug("Processing order: {}", description);
-        int deliveryPrice = order.getDeliveryPrice();
-        int total = order.calculateTotal(productPrice);
+    private static DeliveryPrice createDeliveryStrategy(String deliveryType, double distance, double totalWeight) {
 
-        CalculatorSystem.logger.info("{} - Delivery Price: {} - Total: {}", description, deliveryPrice, total);
+        DeliveryParameters params = new DeliveryParameters() {
+            @Override
+            public double getDistance() {
+                if(distance < 0){
+                    throw new IllegalArgumentException("Distance cannot be negative");
+                }
+                return distance;
+            }
+
+            @Override
+            public double getWeight() {
+                if (totalWeight <= 0){
+                    throw new IllegalArgumentException("Weight must be positive");
+                }
+                return totalWeight;
+            }
+        };
+
+
+        DeliveryFactory factory = DeliveryFactoryProvider.getFactory(deliveryType);
+        return factory.createDelivery(params);
+    }
+
+    private static void logOrderDetails(Order order) {
+        logger.info("=== Order Details ===");
+        logger.info("Order ID: {}", order.getOrderId());
+        logger.info("Delivery Distance: {} km", order.getDistance());
+
+        logger.info("Products:");
+        order.getProducts().forEach(product ->
+                logger.info("  - {} (ID: {}): Rub: {} x {} kg",
+                        product.getName(),
+                        product.getId(),
+                        product.getPrice(),
+                        product.getWeight())
+        );
+
+        logger.info("Order Summary:");
+        logger.info("  - Total Weight: {} kg", order.getTotalWeight());
+        logger.info("  - Products Total: Rub: {}", order.getProductsTotalPrice());
+        logger.info("  - Delivery Price: Rub: {}", order.getDeliveryPrice());
+        logger.info("  - Order Total: Rub: {}", order.calculateTotal());
+        logger.info("====================\n");
     }
 }
-

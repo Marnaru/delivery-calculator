@@ -1,5 +1,7 @@
 package delivery.strategy;
 
+import delivery.DeliveryPrice;
+
 /**
  * Pick-up delivery strategy implementation.
  * Provides free delivery service when customer picks up the order.

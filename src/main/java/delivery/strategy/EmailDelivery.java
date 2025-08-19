@@ -1,5 +1,7 @@
 package delivery.strategy;
 
+import delivery.DeliveryPrice;
+
 /**
  * Email delivery strategy implementation.
  * Provides delivery service through email with associated cost.

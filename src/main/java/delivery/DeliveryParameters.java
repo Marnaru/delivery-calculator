@@ -1,4 +1,4 @@
-package delivery.strategy;
+package delivery;
 
 public interface DeliveryParameters {
 

@@ -1,4 +1,4 @@
-package delivery.strategy;
+package delivery;
 
 /**
  * Strategy interface for calculating delivery prices.

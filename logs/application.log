@@ -62,3 +62,405 @@
 2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
 2025-08-11 17:51:06 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
 2025-08-11 17:51:06 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 19:00:35 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 19:07:24 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 19:10:25 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Standard courier delivery (50km, 5kg) - Delivery Price: 500 - Total: 1500
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Long distance courier delivery (150km, 5kg) - Delivery Price: 650 - Total: 1650
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Heavy weight courier delivery (50km, 50kg) - Delivery Price: 600 - Total: 1600
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Long distance and heavy weight courier delivery (150km, 50kg) - Delivery Price: 780 - Total: 1780
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Pickup delivery - Delivery Price: 0 - Total: 1000
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - Email delivery - Delivery Price: 300 - Total: 1300
+2025-08-11 19:55:23 [main] INFO  CalculatorSystem - All delivery calculations completed successfully
+2025-08-15 17:52:18 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-15 17:52:18 [main] ERROR CalculatorSystem - Error processing order ORD-001: DeliveryPrice cannot be null
+2025-08-15 17:52:18 [main] ERROR CalculatorSystem - Error processing order ORD-002: DeliveryPrice cannot be null
+2025-08-15 17:52:18 [main] ERROR CalculatorSystem - Error processing order ORD-003: DeliveryPrice cannot be null
+2025-08-15 17:52:18 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Laptop (ID: P001): $1200.0 x 2.5 kg
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P002): $25.99 x 0.2 kg
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Products Total: $1225.99
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Delivery Price: $500
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem -   - Order Total: $1725.99
+2025-08-16 20:24:26 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:24:26 [main] ERROR CalculatorSystem - Error processing order ORD-002: Unknown delivery type: Express
+2025-08-16 20:24:26 [main] ERROR CalculatorSystem - An error occurred in the delivery calculator system
+java.lang.IllegalArgumentException: Unknown delivery type: Express
+	at delivery.factory.DeliveryFactoryProvider.getFactory(DeliveryFactoryProvider.java:29)
+	at CalculatorSystem.createDeliveryStrategy(CalculatorSystem.java:99)
+	at CalculatorSystem.createAndProcessOrder(CalculatorSystem.java:63)
+	at CalculatorSystem.main(CalculatorSystem.java:36)
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Laptop (ID: P001): $1200.0 x 2.5 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P002): $25.99 x 0.2 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Products Total: $1225.99
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Delivery Price: $500
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Order Total: $1725.99
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P003): $89.99 x 1.1 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P002): $25.99 x 0.2 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P005): $79.99 x 0.3 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Products Total: $195.96999999999997
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Delivery Price: $300
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Order Total: $495.96999999999997
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   -  Monitor (ID: P004): $249.99 x 5.0 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Laptop (ID: P001): $1200.0 x 2.5 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P003): $89.99 x 1.1 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Products Total: $1539.98
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Delivery Price: $0
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem -   - Order Total: $1539.98
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:27:32 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Laptop (ID: P001): $1200.0 x 2.5 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P002): $25.99 x 0.2 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Products Total: $1225.99
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Delivery Price: $0
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Order Total: $1225.99
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P003): $89.99 x 1.1 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P002): $25.99 x 0.2 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P005): $79.99 x 0.3 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Products Total: $195.96999999999997
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Delivery Price: $650
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Order Total: $845.97
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   -  Monitor (ID: P004): $249.99 x 5.0 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Laptop (ID: P001): $1200.0 x 2.5 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P003): $89.99 x 1.1 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Products Total: $1539.98
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Delivery Price: $0
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem -   - Order Total: $1539.98
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:28:34 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub1200.0 x 2.5 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub25.99 x 0.2 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Products Total: Rub1225.99
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Delivery Price: Rub0
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Order Total: Rub1225.99
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub89.99 x 1.1 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub25.99 x 0.2 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub79.99 x 0.3 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Products Total: Rub195.96999999999997
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Delivery Price: Rub650
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Order Total: Rub845.97
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub249.99 x 5.0 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub1200.0 x 2.5 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub89.99 x 1.1 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Products Total: Rub1539.98
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Delivery Price: Rub0
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem -   - Order Total: Rub1539.98
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:34:30 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1225.99
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1225.99
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub: 79.99 x 0.3 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Products Total: Rub: 195.96999999999997
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 650
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Order Total: Rub: 845.97
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub: 249.99 x 5.0 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1539.98
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1539.98
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:35:14 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1225.99
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1225.99
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub: 79.99 x 0.3 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Products Total: Rub: 195.96999999999997
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 650
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Order Total: Rub: 845.97
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub: 249.99 x 5.0 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1539.98
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1539.98
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:33 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1225.99
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 300
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1525.99
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub: 79.99 x 0.3 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Products Total: Rub: 195.96999999999997
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 650
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Order Total: Rub: 845.97
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Products:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub: 249.99 x 5.0 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1539.98
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1539.98
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - ====================
+
+2025-08-16 20:37:56 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Products:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1225.99
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 300
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1525.99
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Products:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub: 79.99 x 0.3 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Products Total: Rub: 195.96999999999997
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 650
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Order Total: Rub: 845.97
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Products:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub: 249.99 x 5.0 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1539.98
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1539.98
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 17:19:55 [main] INFO  CalculatorSystem - All orders processed successfully
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Starting Delivery Calculator System
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order ID: ORD-001
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Delivery Distance: 50.0 km
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Products:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Total Weight: 2.7 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1225.99
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 300
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1525.99
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order ID: ORD-002
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Delivery Distance: 150.0 km
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Products:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Wireless Mouse (ID: P2): Rub: 25.99 x 0.2 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Bluetooth Headphones (ID: P5): Rub: 79.99 x 0.3 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Total Weight: 1.6 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Products Total: Rub: 195.96999999999997
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 650
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Order Total: Rub: 845.97
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - === Order Details ===
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order ID: ORD-003
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Delivery Distance: 10.0 km
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Products:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   -  Monitor (ID: P4): Rub: 249.99 x 5.0 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Laptop (ID: P1): Rub: 1200.0 x 2.5 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Mechanical Keyboard (ID: P3): Rub: 89.99 x 1.1 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - Order Summary:
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Total Weight: 8.6 kg
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Products Total: Rub: 1539.98
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Delivery Price: Rub: 0
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem -   - Order Total: Rub: 1539.98
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - ====================
+
+2025-08-18 18:49:17 [main] INFO  CalculatorSystem - All orders processed successfully
